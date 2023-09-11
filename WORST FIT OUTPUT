@@ -1,0 +1,35 @@
+Enter the memory size: 1000
+Enter the number of blocks of division of memory: 5
+Enter the size of each block:
+Block[1]: 300
+Block[2]: 200
+Block[3]: 150
+Block[4]: 400
+Block[5]: 100
+
+Enter the number of processes: 4
+Enter the size of each process:
+Process[1]: 200
+Process[2]: 250
+Process[3]: 150
+Process[4]: 300
+
+WORST FIT
+*********
+Process p[1] is allocated to Block[1]
+Process p[2] is allocated to Block[4]
+Process p[3] is allocated to Block[2]
+Process p[4] cannot be allocated
+
+Free space in each block
+************************
+Block [1]: free space =100
+Block [2]: free space =50
+Block [3]: free space =0
+Block [4]: free space =150
+Block [5]: free space =0
+
+Unallocated Blocks
+******************
+Block [3] unallocated
+Block [5] unallocated
